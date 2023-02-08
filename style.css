@@ -1,0 +1,97 @@
+h1, h2, h3 {
+  color:#da79e7
+}
+
+h1  {
+font-size: 32px;
+font-weight: 1000;
+line-height: 0.5;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.5;
+
+}
+
+h1, h2, h3, p, ul {
+  font-family: Cambria, serif
+}
+
+body {
+  background: rgb(245, 235, 243);
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+button:hover {
+
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+a {
+text-decoration: none;
+font-weight: 700;
+font-size: 16px;
+color:white;
+}
+
+button {
+background-color: #e597ef;
+padding: 10px 15px;
+border-radius: 16px;
+font-size: 14px;
+/* border-color: #e597ef; */
+border: none;
+margin-left: 170px;
+margin-top: 3%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+.card {
+  background-color: white;
+  padding: 4px;
+  text-align: justify;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-left: 25%;
+  margin-top: 2%;
+  width: 550px;
+  border-radius: 2%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 150px;
+}
+
+li {
+  display:inline;
+  padding: 20px
+}
+
+i {
+  font-size: 32px;
+  color: #e597ef;
+}
+
+@media (max-width: 540px) {
+  .card {width: 250px;
+
+  }
+}
